@@ -9,9 +9,6 @@ droid.say('Bonjour nous somme en train de hacké votre ordinateur')
 droid.runAndWait()
 
 
-
-time.sleep(5)
-
 droid.say('Voulais vous suprimer les donnée de votre disque dur ?')
 droid.runAndWait()
 
@@ -43,8 +40,7 @@ elif 'non' in t_sur:
     messagebox.showerror('Hacking computer', 'Nous somme en train denvoyer les donnée sur le web')
     messagebox.showerror('Hacking computer', 'Nous somme en train denvoyer les donnée sur le web')
     messagebox.showerror('Hacking computer', 'Nous somme en train denvoyer les donnée sur le web')
-        
-    time.sleep(5)
+    
     
     messagebox.showinfo('Hacking Finish', 'Nous avons fini lenvoie sur le web')
 
